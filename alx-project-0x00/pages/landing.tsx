@@ -19,11 +19,11 @@ const Landing: React.FC =  () => {
 
       <div className="flex flex-col space-y-4 w-full max-w-sm">
         <h2 className="text-2xl font-semibold mt-8">Shapes</h2>
-        <Button title="Rounded-sm Button" styles="bg-purple-500 hover:bg-purple-700 rounded-sm" />
-        <Button title="Rounded-md Button" styles="bg-teal-500 hover:bg-teal-700 rounded-md" />
-        <Button title="Rounded-full Button" styles="bg-orange-500 hover:bg-orange-700 rounded-full" />
+        <Button title="Rounded-sm" styles="bg-purple-500 hover:bg-purple-700 rounded-sm" />
+        <Button title="Rounded-md" styles="bg-teal-500 hover:bg-teal-700 rounded-md" />
+        <Button title="Rounded-full" styles="bg-orange-500 hover:bg-orange-700 rounded-full" />
       </div>
-
+      
       <div className="flex flex-col space-y-4 w-full max-w-sm">
         <h2 className="text-2xl font-semibold mt-8">Combined</h2>
         <Button title="Large Rounded Button" styles="bg-pink-500 hover:bg-pink-700 text-lg rounded-full" />
