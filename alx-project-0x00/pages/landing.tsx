@@ -26,7 +26,7 @@ const Landing: React.FC =  () => {
       
       <div className="flex flex-col space-y-4 w-full max-w-sm">
         <h2 className="text-2xl font-semibold mt-8">Combined</h2>
-        <Button title="Large Rounded Button" styles="bg-pink-500 hover:bg-pink-700 text-lg rounded-full" />
+        <Button title="Large Rounded Button" styles="bg-pink-500 hover:bg-pink-700 text-lg rounded-lg" />
       </div>
     </div>
   )
