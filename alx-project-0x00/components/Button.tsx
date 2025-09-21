@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Define the props interface for the Button component
+// Define the props for the Button component
 interface ButtonProps {
   title: string;
   styles: string;
